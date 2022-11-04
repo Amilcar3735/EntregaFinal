@@ -1,0 +1,11 @@
+// Include any default variable overrides here (though functions won't be available)
+$font-family-sans-serif: "Times New Roman", Times, serif;
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+// Then add additional custom code here
+@import "./Complements/mixins";
+@import "./PAGES/index";
+@import "./PAGES/Nosotros";
+@import "./PAGES/Porfolio";
+@import "./PAGES/Precios";
+@import "./PAGES/Preguntas"
