@@ -313,8 +313,7 @@ select {
 button,
 [type="button"],
 [type="reset"],
-[type="submit"] {
-  -webkit-appearance: button; }
+[type="submit"]
   button:not(:disabled),
   [type="button"]:not(:disabled),
   [type="reset"]:not(:disabled),
@@ -361,7 +360,7 @@ legend {
 
 [type="search"] {
   outline-offset: -2px;
-  -webkit-appearance: textfield; }
+ }
 
 /* rtl:raw:
 [type="tel"],
@@ -371,15 +370,12 @@ legend {
   direction: ltr;
 }
 */
-::-webkit-search-decoration {
-  -webkit-appearance: none; }
 
 ::-webkit-color-swatch-wrapper {
   padding: 0; }
 
 ::file-selector-button {
-  font: inherit;
-  -webkit-appearance: button; }
+  font: inherit}
 
 output {
   display: inline-block; }
