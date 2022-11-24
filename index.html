@@ -18,7 +18,9 @@
   </head>
   <body>
     <header id="headerMain" class="main__header">
-      <img src="./img/Logo.jpeg" alt="Logo" class="main__header-img" />
+      <a href="./index.html">
+        <img src="./img/Logo.jpeg" alt="Logo" class="main__header-img" />
+      </a>
       <nav>
         <ul>
           <li>
@@ -34,7 +36,7 @@
             <a href="./Precios.html">PRECIOS</a>
           </li>
           <li>
-            <a href="./Preguntas.html">PREGUNTAS FRECUENTES</a>
+            <a href="./Contacto.html">CONTACTO</a>
           </li>
         </ul>
       </nav>
@@ -50,6 +52,128 @@
         <a href="./Porfolio.html" class="main__principal__div-boton"
           >Ver nuestros trabajos</a
         >
+        <!-- Boton terminos y condiciones -->
+        <button
+          type="button"
+          class="btn btn-primary"
+          data-bs-toggle="modal"
+          data-bs-target="#exampleModal"
+        >
+          Terminos y condiciones
+        </button>
+
+        <!-- Modal -->
+        <div
+          class="modal fade"
+          id="exampleModal"
+          tabindex="-1"
+          aria-labelledby="exampleModalLabel"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h2 class="modal-title" id="exampleModalLabel">
+                  TERMINOS Y CONDIDIONES
+                </h2>
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <div class="modal-body">
+                <h3>Reserva</h3>
+                <p>
+                  Reserva la sesión teniendo en cuenta los plazos de entrega,
+                  preferentemente un mes antes del evento. En el momento de
+                  fijar fecha y horario los mismos se confirman con una seña del
+                  50% del pack contratado. La seña no es reembolsable por ningún
+                  motivo. Si por causas mayores hay que reprogramar la sesión,
+                  esto debe ser avisado con mínimo 48hs de anticipación. En caso
+                  que sea el plazo sea menor se pierde la seña.
+                </p>
+                <h3>Locacion</h3>
+                <p>
+                  Las sesiones de estudio se realizan en Rafael Calzada, Zona
+                  sur. Las sesiones en exterior, se coordinan con los padres.
+                  Estas últimas tienen un costo extra de traslado variable según
+                  la locación elegida.
+                </p>
+                <h3>Vestuario</h3>
+                <p>
+                  Cuento con una gran variedad de vestimenta en distintos
+                  talles. Una vez reservada la sesión y temática se coordina la
+                  misma, en el caso de que el talle no esté disponible, se
+                  indicará que vestimenta es la más adecuada.
+                </p>
+                <h3>Duración</h3>
+                <p>
+                  Duración de la mayoría de los pack van desde 45 min a 1 hora,
+                  siempre depende de la cantidad de cambios y la predisposición
+                  de los pequeños. Se pide puntualidad, pero siempre hay una
+                  tolerancia de 15 minutos, pasado este tiempo la demora se
+                  descontará del tiempo de sesión.
+                </p>
+                <h3>Selección</h3>
+                <p>
+                  A los 3 días hábiles pasada la sesión mediante una plataforma
+                  se enviará la galería completa para la elección de las fotos.
+                  Tienen de máximo 3 días para la selección. Una vez pasado ese
+                  tiempo no se garantiza la fecha de entrega. Podes adquirir un
+                  número mayor de fotos que las contratadas siempre con un valor
+                  extra, pero bajo ningún concepto se entregan los originales de
+                  la sesión.
+                </p>
+                <h3>Entrega</h3>
+                <p>
+                  La entrega de las fotos finales se realizan a los 10 días de
+                  la selección de las misma. Mediante un link de descarga, con
+                  plazo de 7 días, la descarga y almacenamiento de las mismas
+                  son responsabilidad del cliente.
+                </p>
+                <h3>Captura y edición</h3>
+                <p>
+                  Al contratar mi servicio, se deja como evidencia que tiene
+                  conocimiento de mis habilidades técnicas y artísticas. Por tal
+                  motivo en el caso de no estar conforme con el resultado final
+                  queda exclusivamente bajo su responsabilidad. En caso de que
+                  quiera que se vuelvan a editar dichas fotos, se cobrarán como
+                  extras.
+                </p>
+                <h3>Propiedades intelectual</h3>
+                <p>
+                  Se establece que la propiedad intelectual de todas las
+                  fotografías realizadas por mi persona, son de mi propiedad
+                  intelectual. El cliente a su vez renuncia a reclamar cualquier
+                  tipo de pago o indemnización por el uso de estas o por
+                  cualquier tipo de ganancia que el fotógrafo llegue a obtener
+                  con dichas imágenes. En el caso de que el cliente no esté de
+                  acuerdo con que las fotos de su hijo sean publicadas este debe
+                  avisarlo a se hace la reserva y esto se respetará.
+                </p>
+                <h3>Modos de pago</h3>
+                <p>
+                  La seña se abona en el momento de la reserva mediante
+                  transferencia bancaria. El resto se abona el mismo día de la
+                  sesión en efectivo/transferencia. Si se contratan extras, se
+                  abonan antes de la fecha de entrega.
+                </p>
+              </div>
+              <div class="modal-footer">
+                <button
+                  type="button"
+                  class="btn btn-secondary"
+                  data-bs-dismiss="modal"
+                >
+                  Entendido
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Final terminos y condiciones -->
       </div>
       <section class="main__principal-section">
         <img
@@ -70,127 +194,6 @@
       </section>
     </main>
     <!-- final contenido principal -->
-    <!-- Boton terminos y condiciones -->
-    <button
-      type="button"
-      class="btn btn-primary"
-      data-bs-toggle="modal"
-      data-bs-target="#exampleModal"
-    >
-      Terminos y condiciones
-    </button>
-
-    <!-- Modal -->
-    <div
-      class="modal fade"
-      id="exampleModal"
-      tabindex="-1"
-      aria-labelledby="exampleModalLabel"
-      aria-hidden="true"
-    >
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h2 class="modal-title" id="exampleModalLabel">
-              TERMINOS Y CONDIDIONES
-            </h2>
-            <button
-              type="button"
-              class="btn-close"
-              data-bs-dismiss="modal"
-              aria-label="Close"
-            ></button>
-          </div>
-          <div class="modal-body">
-            <h3>Reserva</h3>
-            <p>
-              Reserva la sesión teniendo en cuenta los plazos de entrega,
-              preferentemente un mes antes del evento. En el momento de fijar
-              fecha y horario los mismos se confirman con una seña del 50% del
-              pack contratado. La seña no es reembolsable por ningún motivo. Si
-              por causas mayores hay que reprogramar la sesión, esto debe ser
-              avisado con mínimo 48hs de anticipación. En caso que sea el plazo
-              sea menor se pierde la seña.
-            </p>
-            <h3>Locacion</h3>
-            <p>
-              Las sesiones de estudio se realizan en Rafael Calzada, Zona sur.
-              Las sesiones en exterior, se coordinan con los padres. Estas
-              últimas tienen un costo extra de traslado variable según la
-              locación elegida.
-            </p>
-            <h3>Vestuario</h3>
-            <p>
-              Cuento con una gran variedad de vestimenta en distintos talles.
-              Una vez reservada la sesión y temática se coordina la misma, en el
-              caso de que el talle no esté disponible, se indicará que
-              vestimenta es la más adecuada.
-            </p>
-            <h3>Duración</h3>
-            <p>
-              Duración de la mayoría de los pack van desde 45 min a 1 hora,
-              siempre depende de la cantidad de cambios y la predisposición de
-              los pequeños. Se pide puntualidad, pero siempre hay una tolerancia
-              de 15 minutos, pasado este tiempo la demora se descontará del
-              tiempo de sesión.
-            </p>
-            <h3>Selección</h3>
-            <p>
-              A los 3 días hábiles pasada la sesión mediante una plataforma se
-              enviará la galería completa para la elección de las fotos. Tienen
-              de máximo 3 días para la selección. Una vez pasado ese tiempo no
-              se garantiza la fecha de entrega. Podes adquirir un número mayor
-              de fotos que las contratadas siempre con un valor extra, pero bajo
-              ningún concepto se entregan los originales de la sesión.
-            </p>
-            <h3>Entrega</h3>
-            <p>
-              La entrega de las fotos finales se realizan a los 10 días de la
-              selección de las misma. Mediante un link de descarga, con plazo de
-              7 días, la descarga y almacenamiento de las mismas son
-              responsabilidad del cliente.
-            </p>
-            <h3>Captura y edición</h3>
-            <p>
-              Al contratar mi servicio, se deja como evidencia que tiene
-              conocimiento de mis habilidades técnicas y artísticas. Por tal
-              motivo en el caso de no estar conforme con el resultado final
-              queda exclusivamente bajo su responsabilidad. En caso de que
-              quiera que se vuelvan a editar dichas fotos, se cobrarán como
-              extras.
-            </p>
-            <h3>Propiedades intelectual</h3>
-            <p>
-              Se establece que la propiedad intelectual de todas las fotografías
-              realizadas por mi persona, son de mi propiedad intelectual. El
-              cliente a su vez renuncia a reclamar cualquier tipo de pago o
-              indemnización por el uso de estas o por cualquier tipo de ganancia
-              que el fotógrafo llegue a obtener con dichas imágenes. En el caso
-              de que el cliente no esté de acuerdo con que las fotos de su hijo
-              sean publicadas este debe avisarlo a se hace la reserva y esto se
-              respetará.
-            </p>
-            <h3>Modos de pago</h3>
-            <p>
-              La seña se abona en el momento de la reserva mediante
-              transferencia bancaria. El resto se abona el mismo día de la
-              sesión en efectivo/transferencia. Si se contratan extras, se
-              abonan antes de la fecha de entrega.
-            </p>
-          </div>
-          <div class="modal-footer">
-            <button
-              type="button"
-              class="btn btn-secondary"
-              data-bs-dismiss="modal"
-            >
-              Entendido
-            </button>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- Final terminos y condiciones -->
     <footer class="footer__principal">
       <img src="./img/Logo.jpeg" alt="Logo" />
       <section class="footer__principal-section">

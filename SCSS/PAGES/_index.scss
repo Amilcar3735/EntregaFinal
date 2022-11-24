@@ -2,13 +2,16 @@
   margin: 0;
   padding: 0;
 }
-
+$font-family-sans-serif: "Times New Roman", Times, serif;
 body {
-  background: #a11cfa;
-  background: linear-gradient(90deg,
-      #a11cfa 0%,
-      rgba(94, 54, 238, 0.432) 35%,
-      rgba(0, 26, 255, 0.685) 100%);
+  background: rgb(160, 255, 246);
+  background: linear-gradient(
+    90deg,
+    rgba(160, 255, 246, 1) 0%,
+    rgba(0, 222, 197, 1) 33%,
+    rgba(165, 255, 246, 1) 67%,
+    rgba(0, 222, 197, 1) 100%
+  );
   width: 100%;
 }
 
@@ -30,23 +33,18 @@ ol {
 }
 
 .main__header {
-  background: #a11cfa;
-  background: linear-gradient(90deg,
-      #a11cfa 0%,
-      rgba(94, 54, 238, 0.432) 35%,
-      rgba(0, 26, 255, 0.685) 100%);
-  width: 100%;
+  width: 90%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 
-  ul {
+.container-fluid{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     padding: 15px;
-
+  }
     li {
       padding-left: 20px;
     }
@@ -57,14 +55,8 @@ ol {
       font-weight: 500;
     }
   }
-}
 
 .main__principal {
-  background: #a11cfa;
-  background: linear-gradient(90deg,
-      #a11cfa 0%,
-      rgba(94, 54, 238, 0.432) 35%,
-      rgba(0, 26, 255, 0.685) 100%);
   height: 258, 5vh;
   text-align: center;
   display: grid;
@@ -91,19 +83,23 @@ ol {
 
 .footer__principal {
   text-align: center;
-  background: #a11cfa;
-  background: linear-gradient(0deg, #a11cfa 0%, rgba(94,54,238,0.432) 50%, rgba(0,26,255,0.685) 100%);
+  background: rgb(0, 255, 244);
+  background: linear-gradient(
+    0deg,
+    rgba(0, 255, 244, 0.43) 0%,
+    rgba(255, 255, 255, 0.68) 100%
+  );
   height: 25vh;
   align-content: center;
-  &-section{
+  &-section {
     display: grid;
     grid-template-columns: 1fr 9fr;
     grid-template-rows: repeat(3, 1fr);
     align-items: center;
     width: 10%;
-    margin-left: 45%;
+    margin-left: 35%;
     margin-top: 10px;
-    p{
+    p {
       width: 100px;
     }
   }
@@ -168,5 +164,8 @@ ol {
 
   .footer__principal {
     height: 200px;
+    &-section {
+      margin-left: 45%;
+    }
   }
 }
