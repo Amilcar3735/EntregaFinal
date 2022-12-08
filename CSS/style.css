@@ -8433,15 +8433,13 @@ ol {
   display: grid; }
   .main__principal-section-img {
     width: 100%; }
-  .main__principal__div {
-    height: 25vh; }
-    .main__principal__div-boton {
-      background-color: red;
-      border-radius: 15px;
-      height: 5vh;
-      padding: 15px 15px; }
-    .main__principal__div-text {
-      font-size: 20px; }
+  .main__principal__div-boton {
+    background-color: red;
+    border-radius: 15px;
+    height: 5vh;
+    padding: 15px 15px; }
+  .main__principal__div-text {
+    font-size: 20px; }
 
 .footer__principal {
   text-align: center;
@@ -8479,19 +8477,17 @@ ol {
     text-align: center;
     display: grid;
     justify-items: center; }
-    .main__principal__div {
-      height: 20vh; }
-      .main__principal__div-tittle {
-        font-style: normal;
-        font-size: 3rem;
-        font-family: sans-serif; }
-      .main__principal__div-text {
-        font-style: normal;
-        font-family: cursive !important; }
-      .main__principal__div-boton {
-        width: 200px;
-        color: black;
-        align-content: center; }
+    .main__principal__div-tittle {
+      font-style: normal;
+      font-size: 3rem;
+      font-family: sans-serif; }
+    .main__principal__div-text {
+      font-style: normal;
+      font-family: cursive !important; }
+    .main__principal__div-boton {
+      width: 200px;
+      color: black;
+      align-content: center; }
     .main__principal-section {
       display: flex;
       width: 90vw;

@@ -39,22 +39,22 @@ ol {
   justify-content: center;
   align-items: center;
 
-.container-fluid{
+  .container-fluid {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     padding: 15px;
   }
-    li {
-      padding-left: 20px;
-    }
-
-    a {
-      color: black;
-      font-size: 1rem;
-      font-weight: 500;
-    }
+  li {
+    padding-left: 20px;
   }
+
+  a {
+    color: black;
+    font-size: 1rem;
+    font-weight: 500;
+  }
+}
 
 .main__principal {
   height: 258, 5vh;
@@ -66,15 +66,12 @@ ol {
   }
 
   &__div {
-    height: 25vh;
-
     &-boton {
       background-color: red;
       border-radius: 15px;
       height: 5vh;
       padding: 15px 15px;
     }
-
     &-text {
       font-size: 20px;
     }
@@ -130,14 +127,11 @@ ol {
     justify-items: center;
 
     &__div {
-      height: 20vh;
-
       &-tittle {
         font-style: normal;
         font-size: 3rem;
         font-family: sans-serif;
       }
-
       &-text {
         @include box-shadow(1);
         font-style: normal;
